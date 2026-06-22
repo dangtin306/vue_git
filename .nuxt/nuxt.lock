@@ -1,0 +1,9 @@
+{
+  "pid": 9685,
+  "startedAt": 1781799325755,
+  "command": "dev",
+  "cwd": "/Users/dangtin306/Desktop/12112/front_end/vue_test",
+  "port": 3003,
+  "hostname": "0.0.0.0",
+  "url": "http://0.0.0.0:3003"
+}

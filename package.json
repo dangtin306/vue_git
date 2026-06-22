@@ -1,0 +1,17 @@
+{
+  "name": "vue_test",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "nuxt dev --port 3003",
+    "dev": "nuxt dev --port 3003",
+    "build": "nuxt build",
+    "preview": "nuxt preview --port 3003"
+  },
+  "dependencies": {
+    "nuxt": "^4.1.2",
+    "tailwindcss": "^4.1.11",
+    "@tailwindcss/vite": "^4.1.11"
+  }
+}
