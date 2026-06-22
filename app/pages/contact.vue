@@ -17,7 +17,7 @@
       <p class="text-sm uppercase tracking-[0.2em] text-amber-700">Contact</p>
       <h1 class="mt-2 text-4xl font-bold text-slate-900">/contact</h1>
       <p class="mt-3 text-slate-600">
-        Day la mot URI mau cho form, lien he, hosss trossss, hoac feedback page.
+        Day la mot URI mau cho form, lien he,okok hosss trossss, hoac feedback page.
       </p>
 
       <div class="mt-6 grid gap-4 md:grid-cols-2">
