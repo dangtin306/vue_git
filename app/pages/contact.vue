@@ -23,7 +23,7 @@
       <div class="mt-6 grid gap-4 md:grid-cols-2">
         <div class="rounded-2xl bg-slate-50 p-4">
           <p class="text-sm text-slate-500">Email</p>
-          <p class="mt-1 font-semibold text-slate-900">hello_9@example.com</p>
+          <p class="mt-1 font-semibold text-slate-900">hello_10@example.com</p>
         </div>
         <div class="rounded-2xl bg-slate-50 p-4">
           <p class="text-sm text-slate-500">Support</p>
