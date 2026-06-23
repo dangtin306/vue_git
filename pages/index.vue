@@ -5,17 +5,6 @@
     <section
       class="w-full max-w-2xl rounded-[24px] bg-white/90 p-7 shadow-[0_24px_60px_rgba(15,23,42,0.14)] backdrop-blur"
     >
-      <nav class="mb-6 flex flex-wrap gap-2">
-        <NuxtLink
-          v-for="item in links"
-          :key="item.to"
-          :to="item.to"
-          class="rounded-full border border-sky-200 bg-sky-50 px-3 py-2 text-sm font-medium text-sky-800 transition hover:border-sky-300 hover:bg-sky-100"
-        >
-          {{ item.label }}
-        </NuxtLink>
-      </nav>
-
       <p
         class="mb-2 text-xs font-bold uppercase tracking-[0.14em] text-sky-700"
       >
@@ -86,15 +75,9 @@
 import { ref } from "vue";
 
 const title = "Nuxt Test";
-const port = 3003;
+const port = 3004;
 const name = ref("");
 const count = ref(0);
-const links = [
-  { to: "/", label: "Home" },
-  { to: "/about", label: "About" },
-  { to: "/services", label: "Services" },
-  { to: "/contact", label: "Contact" },
-];
 
 function reset() {
   name.value = "";

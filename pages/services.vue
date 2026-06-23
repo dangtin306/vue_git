@@ -1,17 +1,6 @@
 <template>
   <main class="min-h-screen bg-white px-6 py-10 text-slate-900">
     <div class="mx-auto max-w-4xl">
-      <div class="mb-6 flex flex-wrap gap-2">
-        <NuxtLink
-          v-for="item in links"
-          :key="item.to"
-          :to="item.to"
-          class="rounded-full border border-slate-200 px-3 py-2 text-sm transition hover:border-sky-400 hover:text-sky-700"
-        >
-          {{ item.label }}
-        </NuxtLink>
-      </div>
-
       <p class="text-sm uppercase tracking-[0.2em] text-sky-700">Services</p>
       <h1 class="mt-2 text-4xl font-bold">/services</h1>
 
@@ -31,13 +20,6 @@
 </template>
 
 <script setup>
-const links = [
-  { to: "/", label: "Home" },
-  { to: "/about", label: "About" },
-  { to: "/services", label: "Services" },
-  { to: "/contact", label: "Contact" },
-];
-
 const cards = [
   {
     tag: "UI",

@@ -4,10 +4,10 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "start": "nuxt dev --port 3003",
-    "dev": "nuxt dev --port 3003",
+    "start": "nuxt dev --port 3004",
+    "dev": "nuxt dev --port 3004",
     "build": "nuxt build",
-    "preview": "nuxt preview --port 3003"
+    "preview": "nuxt preview --port 3004"
   },
   "dependencies": {
     "nuxt": "^4.1.2",
