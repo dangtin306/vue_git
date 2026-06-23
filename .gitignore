@@ -1,1 +1,13 @@
-node_modules
+/node_modules
+/.nuxt
+/.output
+/.cache
+/.vercel
+/.idea
+/.vscode
+.DS_Store
+*.log
+*.env
+*.local
+*.lock
+*.tsbuildinfo
