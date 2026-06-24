@@ -22,8 +22,17 @@
           v-for="item in links"
           :key="item.to"
           :to="item.to"
-          class="rounded-full px-4 py-2 text-sm font-medium text-slate-600 transition hover:bg-slate-100 hover:text-slate-950"
-          active-class="bg-slate-900 text-white hover:bg-slate-900 hover:text-white"
+          :class="[
+            'rounded-full px-4 py-2 text-sm font-medium transition',
+            item.to === '/test_code'
+              ? 'border border-slate-200 bg-white text-slate-900 hover:border-slate-300 hover:bg-slate-50'
+              : 'text-slate-600 hover:bg-slate-100 hover:text-slate-950',
+          ]"
+          :active-class="
+            item.to === '/test_code'
+              ? 'border border-slate-300 bg-white text-slate-900'
+              : 'bg-slate-900 text-white hover:bg-slate-900 hover:text-white'
+          "
         >
           {{ item.label }}
         </NuxtLink>
@@ -38,5 +47,6 @@ const links = [
   { to: "/about", label: "About" },
   { to: "/services", label: "Services" },
   { to: "/contact", label: "Contact" },
+  { to: "/test_code", label: "Test Code" },
 ];
 </script>
