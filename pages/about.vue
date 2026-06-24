@@ -5,7 +5,7 @@
       <h1 class="mt-2 text-4xl font-bold">/about</h1>
       <p class="mt-4 max-w-2xl text-slate-300">
         Route nay dung de test page co noi dung rieng trong Nuxt. Ban co the
-        tach tung URI ra thanh page rieng rat nhanh.
+        tach tung URI ra thanh page rieng rat nhanh .
       </p>
     </div>
   </main>
